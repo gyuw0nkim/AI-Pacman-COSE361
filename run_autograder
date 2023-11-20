@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/valueIterationAgents.py /autograder/source/valueIterationAgents.py
+cp /autograder/submission/qlearningAgents.py /autograder/source/qlearningAgents.py
+cp /autograder/submission/analysis.py /autograder/source/analysis.py
+
+cd /autograder/source
+
+python3 autograder.py
